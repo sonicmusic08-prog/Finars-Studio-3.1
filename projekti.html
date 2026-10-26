@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekti – FIN ARS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-animation" aria-hidden="true">
+    <div class="bg-slide active" style="background-image: url('https://finars.si/projekti/2013%207%20olimpijski%20bazen%20libija/02.jpg')"></div>
+    <div class="bg-overlay"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">FINARS</span>
+        <span class="logo-sub">center za arhitekturo</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Domov</a>
+        <a href="projekti.html" class="active">Projekti</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="storitve.html">Storitve</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Meni"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Projekti</h1>
+        <p>Izbor realizacij in projektov arhitekturnega biroja FIN ARS – od javnih objektov do stanovanjskih naselij.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Vsi</button>
+          <button class="filter-btn" data-filter="2013">2013</button>
+          <button class="filter-btn" data-filter="2011">2011</button>
+          <button class="filter-btn" data-filter="2010">2010</button>
+          <button class="filter-btn" data-filter="2007">2007</button>
+        </div>
+
+        <div class="project-grid" id="projectsGrid">
+          <a href="projekt.html?id=olimpijski-bazen" class="project-card" data-year="2013">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2013%207%20olimpijski%20bazen%20libija/01.jpg" alt="Olimpijski bazen Libija" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2013</span>
+              <h3>Olimpijski bazen & wellness Libija</h3>
+              <p>Pokrit olimpijski bazen z javno pohodno streho</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=sola-trbovlje" class="project-card" data-year="2013">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2013%206%20sola%20trbovlje/01.jpg" alt="Šola Trbovlje" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2013</span>
+              <h3>Šola Revirski borci, Trbovlje</h3>
+              <p>Celovita prenova osnovne šole</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=stanovanjsko-naselje" class="project-card" data-year="2013">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2013%202%20stanovanjsko%20naselje%20podcetrtek/01.jpg" alt="Naselje Podčetrtek" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2013</span>
+              <h3>Stanovanjsko naselje Podčetrtek</h3>
+              <p>Novo stanovanjsko naselje</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=urbana-dnevna-soba" class="project-card" data-year="2011">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2011%208%20urbana%20dnevna%20soba/01.jpg" alt="Urbana dnevna soba" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2011</span>
+              <h3>Urbana dnevna soba na deželi</h3>
+              <p>Sodobna bivalna arhitektura</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=czs" class="project-card" data-year="2011">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2011%201%20czs/01.jpg" alt="CZS" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2011</span>
+              <h3>CZS – Center za družbene dejavnosti</h3>
+              <p>Prostor srečevanja in kulture</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=stanovanja-r" class="project-card" data-year="2011">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2011%204%20stanovanja%20r/01.jpg" alt="Stanovanja R" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2011</span>
+              <h3>Stanovanja R</h3>
+              <p>Stanovanjski projekt z jasno zasnovo</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=vrtec-kisovec" class="project-card" data-year="2010">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2010%203%20vrtec%20kisovec/01.jpg" alt="Vrtec Kisovec" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2010</span>
+              <h3>Vrtec Kisovec</h3>
+              <p>Sodobni vrtec za najmlajše</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=mercator-skofja-loka" class="project-card" data-year="2010">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2010%202%20mercator%20skofja%20loka/01.jpg" alt="Mercator Škofja Loka" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2010</span>
+              <h3>Mercator Škofja Loka</h3>
+              <p>Trgovski objekt</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=spar-litija" class="project-card" data-year="2007">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2007%207%20spar%20litija/01.jpg" alt="SPAR Litija" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2007</span>
+              <h3>SPAR Litija</h3>
+              <p>Trgovski center</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=blok-k3" class="project-card" data-year="2007">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2007%202%20blok%20k3/01.jpg" alt="Blok K3" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2007</span>
+              <h3>Blok K3</h3>
+              <p>Večstanovanjski objekt</p>
+            </div>
+          </a>
+
+          <a href="projekt.html?id=avtohisa-s" class="project-card" data-year="2007">
+            <div class="project-image">
+              <img src="https://finars.si/projekti/2007%206%20avtohisa%20s/01.jpg" alt="Avtohiša S" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-year">2007</span>
+              <h3>Avtohiša S</h3>
+              <p>Objekt za prodajo in servis vozil</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">FINARS</span>
+        <p>Center za arhitekturo, gradbeno projektiranje in druge storitve d.o.o.</p>
+      </div>
+      <div class="footer-links">
+        <a href="projekti.html">Projekti</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="storitve.html">Storitve</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="footer-contact">
+        <p>Podvine 36, 1410 Zagorje ob Savi</p>
+        <p><a href="mailto:info@finars.si">info@finars.si</a></p>
+        <p>+386 41 686 959</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container"><p>© 2006–2026 FIN ARS d.o.o. Vse pravice pridržane.</p></div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close">×</button>
+    <button class="lightbox-prev">‹</button>
+    <button class="lightbox-next">›</button>
+    <img src="" alt="" id="lightboxImg">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
