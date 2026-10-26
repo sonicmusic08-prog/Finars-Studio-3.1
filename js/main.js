@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Background slideshow
+  // Background slideshow – slower & more elegant
   const slides = document.querySelectorAll('.bg-slide');
   if (slides.length) {
     let current = 0;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       slides[current].classList.remove('active');
       current = (current + 1) % slides.length;
       slides[current].classList.add('active');
-    }, 7000);
+    }, 8500);
   }
 
   // Lightbox
